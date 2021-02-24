@@ -1,0 +1,98 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  height: 80px;
+  background: white;
+}
+
+.nav_logo {
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav_items {
+  padding: 45px;
+  margin-top: -117px;
+  margin-left: 635px;
+}
+
+/* Nav animation */
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+nav .links {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #f95700ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.35em;
+}
+
+nav .links:hover,
+nav .links:focus {
+  outline: none;
+}
+
+nav .links:active {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #f95700ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.35em;
+}
+
+.cl-effect-5 .links {
+  overflow: hidden;
+  padding: 0 4px;
+  height: 1em;
+}
+
+.cl-effect-5 .links span {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.cl-effect-5 .links span::before {
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 700;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.cl-effect-5 .links:hover span,
+.cl-effect-5 .links:focus span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
