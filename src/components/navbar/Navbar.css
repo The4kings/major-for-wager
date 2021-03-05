@@ -4,12 +4,12 @@ body {
 }
 
 .nav {
-  height: 80px;
-  background: white;
+  height: 60px;
+  background: black;
 }
 
 .nav_logo {
-  width: 80px;
+  width: 60px;
   object-fit: contain;
 }
 
@@ -64,6 +64,10 @@ nav .links:active {
   font-weight: 400;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
   font-size: 1.35em;
+}
+
+.cl-effect-5 {
+  margin-top: 12px;
 }
 
 .cl-effect-5 .links {

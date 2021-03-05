@@ -6,11 +6,11 @@ import ProfileCard from "./components/left_section/profile_card/ProfileCard";
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <ProfileCard />
       <NewsFeed />
-    </div>
+    </>
   );
 };
 
