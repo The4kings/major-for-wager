@@ -36,7 +36,6 @@ const Navbar = () => {
         <Route exact path="/SearchJobs" component={SearchJobs} />
         <Route exact path="/JobsApplied" component={JobsApplied} />
         <Route exact path="/Profile" component={Profile} />
-        <Route component={Error} />
       </Switch>
     </>
   );

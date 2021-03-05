@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  /* font-family: Helvetica now,Arial,sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* background-image: url("./img/901307.png"); */
+  line-height: 1.2!important;
+}
+
+.inline {
+  display: inline;
+}
+
+.right {
+  text-align: right !important;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.heading {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+}
+
+.heading2 {
+  font-size: 0.7rem;
+  line-height: 1.33333;
+  font-weight: 500;
+}
+.parent {
+  /* margin: 100px; */
+  margin-top: -284px;
+  margin-left: 67px;
+  width: 225px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.08), 1px 0px 1px rgba(0, 0, 0, 0.08),
+    -1px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-align: center;
+}
+
+.cover {
+  background-image: url("../../assets/cover.jfif");
+  background-position: center;
+  background-size: 50% 100%;
+  /* border-bottom-color:rgba(0,0,0,0.15); */
+  /* display: block; */
+  height: 54px;
+  width: 225px;
+  margin-bottom: 54px;
+}
+
+.dp {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 112px;
+  height: 72px;
+  margin-top: 15px;
+}
+
+.dp:hover {
+  box-shadow: 2px 1px 18px red;
+}
+
+.profileName {
+  margin-top: 10px;
+}
+
+.about {
+  font-size: 0.7rem;
+  line-height: 1.33333;
+  font-weight: 500;
+  margin-top: 4px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.profile {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.info {
+  margin-top: 10px;
+  margin-bottom: 10px !important;
+  margin-left: 5px;
+}
+
+.skills {
+  height: auto;
+  margin-top: 11px;
+  margin-bottom: 10px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.151);
+  height: 60px;
+}
+
+.skills ul {
+  margin-top: 5px;
+  margin-right: 92px;
+  margin-left: -53px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills li {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.social {
+  border-top: 1px solid rgba(0, 0, 0, 0.151);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social p {
+  margin-bottom: 10px;
+}
