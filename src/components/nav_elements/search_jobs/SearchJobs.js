@@ -1,7 +1,8 @@
 import React from "react";
 
+import "./SearchJobs.css"
 const SearchJobs = () => {
-  return <h1> This is the Search_Jobs</h1>;
+  return <div className="home"> This is the Search_Jobs</div>;
 };
 
 export default SearchJobs;

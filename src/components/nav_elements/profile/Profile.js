@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./Profile.css"
+
 const Profile = () => {
-  return <h1> This is the Profile</h1>;
+  return <div className="home">This is the Profile</div>;
 };
 
 export default Profile;

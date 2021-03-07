@@ -1,0 +1,13 @@
+.boxy {
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-left: 58px;
+    border-radius: 10px;
+    width: 623px;
+    padding-left: 14px;
+}
+
+hr {
+    margin-left: 60px;
+    width: 540px;
+}

@@ -4,3 +4,20 @@
     margin-top: 51px;
     margin-left: 352px;
 }
+
+.smalltext {
+    color: red;
+    width: 60px;
+    margin-left: 620px;
+    margin-top: -27px;
+    margin-bottom: -8px;
+}
+
+.advertisement {
+    border: 1px solid black;
+    margin-left: 757px;
+    margin-top: 40px;
+    width: 317px;
+    height: 320px;
+    border-radius: 10px;
+}

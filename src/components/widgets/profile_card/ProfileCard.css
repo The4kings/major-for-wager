@@ -31,8 +31,8 @@ body {
 }
 .parent {
   /* margin: 100px; */
-  margin-top: -284px;
-  margin-left: 67px;
+  margin-top: -1207px;
+  margin-left: -243px;
   width: 225px;
   border-radius: 10px;
   background-color: white;
@@ -85,19 +85,21 @@ body {
   margin-top: 10px;
   margin-bottom: 10px !important;
   margin-left: 5px;
+  padding-top: 6px;
 }
 
 .skills {
   height: auto;
   margin-top: 11px;
-  margin-bottom: 10px !important;
+  margin-bottom: 52px !important;
   border-top: 1px solid rgba(0, 0, 0, 0.151);
   height: 60px;
+  padding-top: 10px;
 }
 
 .skills ul {
   margin-top: 5px;
-  margin-right: 92px;
+  margin-right: 32px;
   margin-left: -53px;
   padding: 0;
   list-style-type: none;
@@ -112,8 +114,21 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.151);
   padding-top: 10px;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 .social p {
   margin-bottom: 10px;
+}
+
+.heigh {
+  height: 0!important;
+}
+
+.hoho {
+  text-align: left;
+}
+
+.hehe {
+  margin-left: -27px;
 }

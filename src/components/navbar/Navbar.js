@@ -1,9 +1,8 @@
 import React from "react";
-import Home from "../mid_section/home/Home";
-import JobsApplied from "../mid_section/jobs_applied/JobsApplied";
-import Profile from "../mid_section/profile/Profile";
-import SearchJobs from "../mid_section/search_jobs/SearchJobs";
-import Error from "./Error";
+import Home from "../nav_elements/home/Home";
+import JobsApplied from "../nav_elements/jobs_applied/JobsApplied";
+import Profile from "../nav_elements/profile/Profile";
+import SearchJobs from "../nav_elements/search_jobs/SearchJobs";
 import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
