@@ -6,7 +6,7 @@ const NewsFeed = () => {
   return (
     <>
       <div className=" news">
-        <h2 className="heading left" style={{ paddingLeft: "12px" }}>
+        <h2 className="headingg left" style={{ paddingLeft: "12px" }}>
           Tech News
         </h2>
         <ul
@@ -46,7 +46,7 @@ const NewsFeed = () => {
 
           <div class="more">
             <input type="checkbox" id="check_id"></input>
-            <label for="check_id"></label>
+            <label className="label" for="check_id" style={{ width: "315px", height: "100px" }}></label>
             <ul className="expandible" style={{ paddingLeft: "1px" }}>
               <li>
                 <a href="#" className="heading1">

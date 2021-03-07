@@ -21,12 +21,14 @@ const ProfileCard = () => {
             <p className="heading2" style={{ marginBottom:"0px"}}> <span style={{fontWeight:"bold"}}>Phone no:</span> 754920865</p>
         </div>
         <div className="skills">
-            <p className="inline left heading2"><span style={{fontWeight:"bold"}}>Skills :</span></p>
+            <p className="inline left heading2 hehe"><span style={{fontWeight:"bold"}}>Skills :</span></p>
             <div className="skillslist inline">
-                <ul className="inline heading2" style={{float:"right"}}>
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Milk</li>
+                <ul className="inline heading2 hoho" style={{float:"right", height: "88px",marginBottom: "1px", width: "126px"}}>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>React js</li>
+                    <li>Node js</li>
+                    <li>C/C++</li>
                 </ul>
             </div>
         </div>

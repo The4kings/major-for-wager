@@ -1,38 +1,20 @@
-import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import React from 'react';
 
 import './CreatePost.css';
-import TextPreview from './routing/TextPreview';
-import ImagePreview from './routing/ImagePreview';
-import VideoPreview from './routing/VideoPreview';
 
 const CreatePost = () => {
         return (
             <>
                 <div className="create_post">
                     <div className="caption">
-                        <input type="text"></input>
-                    </div>
-                    <div className="display">
-                        <Switch>
-                        <Route exact path="/" component={TextPreview}>
-                        </Route>
-                        <Route exact path="/ImagePreview" component={ImagePreview}>
-                        </Route>
-                        <Route exact path="/VideoPreview" component={VideoPreview}>
-                        </Route>
-                        </Switch>      
+                        <input type="text" name="name" class="question" id="nme" required autocomplete="off" />
+                        <label for="nme"><span>What's this post about?</span></label>
+                        <textarea placeholder="Write your post here ..." name="message" rows="2" class="question" id="msg" required autocomplete="off"></textarea>
                     </div>
                     <div className="Routing_triggers">
-                        <Link to="/"><button className="button button1">Text</button></Link>
-                        <Link to="/ImagePreview"><button className="button button1">Image</button></Link>
-                        <Link to="/VideoPreview"><button className="button button1">Video</button></Link>
-                        <button className="button button2">Post</button>
+                        <button className="button button1">Photo</button>
+                        <button className="button button1">Video</button>
+                        <button className="button button1">Post</button>
                     </div>
                 </div>
             </>
