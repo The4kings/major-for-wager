@@ -26,7 +26,7 @@ const Home = () => {
       </div>
       <div className="newsnews"><NewsFeed /></div>
       <div className="advertisement">
-        <h1>Fuck this shit</h1>
+        <h1>Advertisement</h1>
       </div>
       <div className="opp">
       <Footer />
