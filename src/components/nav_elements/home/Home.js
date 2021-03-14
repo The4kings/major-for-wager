@@ -5,6 +5,7 @@ import './Home.css';
 import PostBox from './post_container/index';
 import ProfileCard from '../../widgets/profile_card/ProfileCard';
 import NewsFeed from '../../widgets/news_feed/NewsFeed';
+import Footer from "../../footer/Footer";
 
 const Home = () => {
   return (
@@ -20,10 +21,15 @@ const Home = () => {
       <PostBox />
       <PostBox />
       <PostBox />
+      <div className="bitch">
       <ProfileCard />
-      <NewsFeed />
+      </div>
+      <div className="newsnews"><NewsFeed /></div>
       <div className="advertisement">
         <h1>Fuck this shit</h1>
+      </div>
+      <div className="opp">
+      <Footer />
       </div>
     </div>
   );
