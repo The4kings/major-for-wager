@@ -1,0 +1,67 @@
+.themain {
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 150px;
+}
+label {
+  display: block;
+  margin: 20px 0 0;
+}
+label:hover {
+  text-decoration: underline;
+}
+input {
+  position: absolute;
+  left: -999em;
+}
+.inner {
+  position: relative;
+  overflow: hidden;
+  margin-left: 520px;
+}
+.hide2 {
+  height: 135px;
+  width: 50%;
+  float: left;
+  clear: both;
+  background: transparent;
+  opacity: 1;
+  overflow: hidden;
+  transform: translateY(0);
+  margin: 0;
+  transition: all 1.5s linear, margin 0s linear 0s;
+}
+.hide2 p {
+  padding: 10px;
+  margin: 0;
+}
+.ex2 .follow {
+  clear: both;
+}
+
+.ex2 input[type="checkbox"]:checked + .inner .hide2 {
+  opacity: 0;
+  transform: translateY(-100%);
+  margin-bottom: -999em;
+  transition: all 1.5s linear, margin 0s linear 1.5s;
+}
+
+.buton1 {
+  margin-left: 0px;
+  margin-top: 36px;
+  /* height: 54px; */
+  position: absolute;
+}
+
+button {
+  height: 60px;
+  width: 120px;
+  border-radius: 1100px;
+  border: 1px solid black;
+}
+
+.buton2 {
+  margin-left: 388px;
+  margin-top: 36px;
+  position: absolute;
+}

@@ -1,6 +1,6 @@
-.jobsapplied{
-    width: 740px;
-    margin: auto;
-    margin-top: 51px;
-    margin-left: 352px;
+.jobsapplied {
+  border: 1px solid black;
+  width: 1000px;
+  margin: auto;
+  margin-top: 62px !important;
 }

@@ -20,4 +20,25 @@
     width: 317px;
     height: 320px;
     border-radius: 10px;
+    position: absolute;
+    top: 99px;
+    left: 378px;
+}
+
+.opp {
+    position: absolute;
+    top: 800px;
+    left: -26px;
+}
+
+.bitch {
+    position: absolute;
+    top: 140px;
+    left: 84px;
+}
+
+.newsnews {
+    position: absolute;
+    top: 895px;
+    left: 378px;
 }

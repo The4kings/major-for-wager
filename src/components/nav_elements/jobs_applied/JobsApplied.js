@@ -1,12 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
 import './JobsApplied.css';
+import SearchApp from './searching';
 
-const JobsApplied = () => {
+class JobsApplied extends Component {
+  employeeData = [
+    { name: "Joan", title: "developer", salary: 100000 },
+    { name: "Enrique", title: "manager", salary: 200000 },
+    { name: "Shana", title: "developer", salary: 105000 },
+    { name: "Shana", title: "manager", salary: 105000 },
+];
+  render() {
   return (
   <div className="jobsapplied">
-    <h1> This is the Jobs_Applied</h1>
+    <SearchApp data={this.employeeData} />
   </div>
-  );
-};
+ );
+}
+}
 
 export default JobsApplied;
